@@ -1,0 +1,18 @@
+.month-picker{width:157px}
+.month-picker select{min-height:38px}
+.dashboard-loading{display:flex;min-height:50vh;align-items:center;justify-content:center;gap:11px;color:var(--text-muted);font-size:13px}
+.loading-dot{width:8px;height:8px;border-radius:50%;background:var(--primary-light);box-shadow:0 0 0 5px var(--primary-glow-soft);animation:pulse 1s infinite alternate}@keyframes pulse{to{opacity:.35}}
+.overview-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin-top:14px;padding:16px;border:1px solid var(--border);border-radius:12px;background:var(--bg-card)}
+.overview-item{display:grid;grid-template-columns:34px minmax(0,1fr);align-items:center;column-gap:11px}
+.overview-icon{grid-row:span 2;display:grid;width:32px;height:32px;place-items:center;border-radius:9px;background:color-mix(in srgb,var(--success) 14%,var(--bg-card));color:var(--success)}.overview-icon svg{width:15px}
+.overview-icon-muted{background:var(--bg-card-hover);color:var(--text-secondary)}
+.overview-item div{display:flex;align-items:center;justify-content:space-between;gap:8px}.overview-item div span{color:var(--text-muted);font-size:10px}.overview-item strong{overflow:hidden;color:var(--text-primary);font-size:12px;font-weight:560;text-overflow:ellipsis;white-space:nowrap}
+.overview-item small{grid-column:2;color:var(--text-muted);font-size:9px}
+.dashboard-grid{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(240px,.85fr);gap:14px;margin-top:15px}
+.trend-panel,.increment-panel{min-height:284px}
+.recent-panel{margin-top:15px}
+.text-link{display:inline-flex;align-items:center;gap:6px;color:var(--primary-light);font-size:10px;text-decoration:none;white-space:nowrap}.text-link:hover{color:var(--primary-hover)}.text-link span{font-size:14px}
+.dashboard-fab{display:none}
+@media(max-width:1100px){.dashboard-grid{grid-template-columns:1fr}.increment-panel{min-height:240px}.bar-chart{min-height:150px}.bar-track{height:92px}}
+@media(max-width:700px){.overview-strip{grid-template-columns:1fr;gap:13px}.overview-item div{justify-content:flex-start;gap:18px}.page-heading{flex-wrap:wrap}.month-picker{width:100%}}
+@media(max-width:520px){.dashboard-fab{position:fixed;right:18px;bottom:17px;z-index:20;display:inline-flex;align-items:center;gap:8px;padding:12px 15px;border:0;border-radius:24px;background:var(--primary);color:var(--text-primary);font:inherit;font-size:11px;font-weight:650;box-shadow:0 8px 24px #0007;text-decoration:none}.dashboard-fab:hover{background:var(--primary-hover)}.recent-panel{margin-bottom:54px}}

@@ -1,0 +1,20 @@
+.expenses-table-panel{margin-top:15px}
+.expenses-page .page-heading .button-primary{background:linear-gradient(135deg,var(--primary),var(--indigo));box-shadow:0 4px 16px var(--primary-glow-soft)}
+.expenses-page .page-heading .button-primary:hover{background:linear-gradient(135deg,var(--primary-hover),var(--indigo-hover));box-shadow:0 6px 22px var(--primary-glow)}
+.expense-filters{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:7px}
+.expense-filters>.field-label{width:140px}
+.expense-filters select,.date-filter{min-height:35px;padding:0 9px;border:1px solid var(--border);border-radius:8px;background:var(--bg-secondary);color:var(--text-secondary);font:inherit;font-size:10px}
+.expense-filters>.field-label select{min-height:35px;font-size:10px}
+.expense-filters select{max-width:145px}.expense-filters .date-filter{width:132px}
+.search-field{display:flex;height:35px;align-items:center;gap:7px;padding:0 9px;border:1px solid var(--border);border-radius:8px;background:var(--bg-secondary);color:var(--text-muted)}
+.search-field svg{width:13px}.search-field input{width:125px;border:0;outline:0;background:transparent;color:var(--text-primary);font:inherit;font-size:10px}.search-field input::placeholder{color:var(--text-disabled)}
+.expense-description{display:block;color:var(--text-primary)}.table-note{display:block;margin-top:4px;color:var(--text-disabled);font-size:9px}
+.payment-badge{display:inline-flex;padding:4px 8px;border:1px solid transparent;border-radius:20px;font-size:9px}
+.payment-upi{border-color:color-mix(in srgb,var(--payment-upi) 25%,transparent);background:color-mix(in srgb,var(--payment-upi) 12%,transparent);color:var(--payment-upi)}
+.payment-card{border-color:color-mix(in srgb,var(--payment-card) 25%,transparent);background:color-mix(in srgb,var(--payment-card) 12%,transparent);color:var(--payment-card)}
+.payment-cash{border-color:color-mix(in srgb,var(--payment-cash) 25%,transparent);background:color-mix(in srgb,var(--payment-cash) 12%,transparent);color:var(--payment-cash)}
+.payment-bank{border-color:color-mix(in srgb,var(--cyan) 25%,transparent);background:color-mix(in srgb,var(--cyan) 12%,transparent);color:var(--cyan)}
+.payment-other{border-color:var(--border);background:var(--bg-card-hover);color:var(--text-muted)}
+.danger-icon{background:color-mix(in srgb,var(--danger) 12%,transparent);color:var(--danger)}
+@media(max-width:1100px){.expenses-table-panel>.panel-heading{align-items:flex-start;flex-direction:column}.expense-filters{justify-content:flex-start;width:100%}}
+@media(max-width:600px){.expense-filters>*{flex:1}.expense-filters .search-field{flex-basis:100%}.search-field input{width:100%}.expense-filters>.field-label{width:auto}.expense-filters select{max-width:none}.expense-filters .date-filter{width:auto}}

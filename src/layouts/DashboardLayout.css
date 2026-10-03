@@ -1,0 +1,6 @@
+.app-shell{min-height:100vh;background:var(--background)}
+.main-column{min-height:100vh;margin-left:248px}
+.main-content{width:min(100%,1500px);margin:0 auto;padding:34px 38px 55px}
+.sidebar-scrim{display:none}
+@media(max-width:900px){.main-column{margin-left:0}.main-content{padding:27px 25px 45px}.sidebar-scrim{position:fixed;inset:0;z-index:35;display:block;border:0;background:#0009}}
+@media(max-width:600px){.main-content{padding:23px 15px 35px}}

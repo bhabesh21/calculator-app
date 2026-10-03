@@ -1,0 +1,10 @@
+.chart-wrap{width:100%}.chart-legend{display:flex;flex-wrap:wrap;gap:16px;margin:0 0 12px 47px}
+.chart-legend span{display:flex;align-items:center;gap:6px;color:var(--text-muted);font-size:10px}.chart-legend i{width:7px;height:7px;border-radius:50%}
+.trend-chart{display:block;width:100%;overflow:visible}.chart-gridline{stroke:var(--border);stroke-width:1}.chart-axis-label{fill:var(--text-muted);font-family:inherit;font-size:9px}
+.bar-chart{display:flex;min-height:179px;align-items:stretch;justify-content:space-around;gap:9px;padding:7px 2px 0}
+.bar-column{display:flex;min-width:0;flex:1;flex-direction:column;align-items:center;gap:8px}
+.bar-column>strong{height:14px;color:var(--text-secondary);font-size:9px;font-weight:500}
+.bar-track{display:flex;width:min(34px,80%);height:120px;align-items:flex-end;overflow:hidden;border-radius:7px;background:var(--bg-card-hover)}
+.bar-track span{width:100%;border-radius:7px 7px 3px 3px;background:linear-gradient(0deg,var(--primary-dark),var(--primary-light));transition:height .25s}
+.bar-label{overflow:hidden;max-width:100%;color:var(--text-muted);font-size:9px;text-overflow:ellipsis;white-space:nowrap}
+@media(max-width:600px){.chart-legend{margin-left:0}.trend-chart{min-height:170px}.bar-track{height:105px}}

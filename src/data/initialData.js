@@ -1,0 +1,47 @@
+export const defaultCategories = [
+  "Food",
+  "Rent",
+  "Petrol",
+  "Grocery",
+  "Shopping",
+  "Bills",
+  "Travel",
+  "Entertainment",
+  "Health",
+  "Other",
+];
+
+export const initialSalaries = [
+  { id: "salary-oct-2026", month: 10, year: 2026, salary: 50000, effectiveDate: "2026-10-01", notes: "Starting salary" },
+  { id: "salary-nov-2026", month: 11, year: 2026, salary: 54000, effectiveDate: "2026-11-01", notes: "Annual increment" },
+  { id: "salary-dec-2026", month: 12, year: 2026, salary: 54000, effectiveDate: "2026-12-01", notes: "" },
+  { id: "salary-jan-2027", month: 1, year: 2027, salary: 60000, effectiveDate: "2027-01-01", notes: "Promotion" },
+];
+
+export const initialExpenses = [
+  { id: "expense-1", date: "2026-10-01", category: "Rent", description: "Monthly rent", amount: 7500, paymentMethod: "Bank transfer", notes: "" },
+  { id: "expense-2", date: "2026-10-02", category: "Food", description: "Weekly groceries", amount: 3200, paymentMethod: "UPI", notes: "" },
+  { id: "expense-3", date: "2026-10-02", category: "Bills", description: "Electricity & internet", amount: 2500, paymentMethod: "UPI", notes: "" },
+  { id: "expense-4", date: "2026-10-03", category: "Food", description: "Lunch with friends", amount: 1800, paymentMethod: "Card", notes: "" },
+  { id: "expense-5", date: "2026-10-03", category: "Petrol", description: "Fuel top-up", amount: 1500, paymentMethod: "UPI", notes: "" },
+  { id: "expense-6", date: "2026-10-03", category: "Shopping", description: "New running shoes", amount: 2000, paymentMethod: "Card", notes: "" },
+  { id: "expense-7", date: "2026-10-03", category: "Other", description: "Household supplies", amount: 1500, paymentMethod: "Cash", notes: "" },
+  { id: "expense-8", date: "2026-11-02", category: "Rent", description: "Monthly rent", amount: 7500, paymentMethod: "Bank transfer", notes: "" },
+  { id: "expense-9", date: "2026-11-05", category: "Food", description: "Groceries & dining", amount: 5000, paymentMethod: "UPI", notes: "" },
+  { id: "expense-10", date: "2026-11-10", category: "Bills", description: "Utilities", amount: 2500, paymentMethod: "UPI", notes: "" },
+  { id: "expense-11", date: "2026-11-14", category: "Petrol", description: "Fuel", amount: 2000, paymentMethod: "UPI", notes: "" },
+  { id: "expense-12", date: "2026-11-19", category: "Shopping", description: "Personal shopping", amount: 3000, paymentMethod: "Card", notes: "" },
+  { id: "expense-13", date: "2026-11-24", category: "Other", description: "Home supplies", amount: 2000, paymentMethod: "Cash", notes: "" },
+  { id: "expense-14", date: "2026-12-02", category: "Rent", description: "Monthly rent", amount: 7500, paymentMethod: "Bank transfer", notes: "" },
+  { id: "expense-15", date: "2026-12-08", category: "Food", description: "Groceries", amount: 4200, paymentMethod: "UPI", notes: "" },
+  { id: "expense-16", date: "2026-12-11", category: "Bills", description: "Utilities", amount: 2500, paymentMethod: "UPI", notes: "" },
+  { id: "expense-17", date: "2026-12-17", category: "Petrol", description: "Fuel", amount: 1800, paymentMethod: "UPI", notes: "" },
+  { id: "expense-18", date: "2026-12-22", category: "Shopping", description: "Gifts", amount: 4500, paymentMethod: "Card", notes: "" },
+  { id: "expense-19", date: "2026-12-27", category: "Other", description: "Household supplies", amount: 1500, paymentMethod: "Cash", notes: "" },
+  { id: "expense-20", date: "2027-01-02", category: "Rent", description: "Monthly rent", amount: 7500, paymentMethod: "Bank transfer", notes: "" },
+  { id: "expense-21", date: "2027-01-07", category: "Food", description: "Groceries & dining", amount: 5000, paymentMethod: "UPI", notes: "" },
+  { id: "expense-22", date: "2027-01-11", category: "Bills", description: "Utilities", amount: 2500, paymentMethod: "UPI", notes: "" },
+  { id: "expense-23", date: "2027-01-15", category: "Petrol", description: "Fuel", amount: 2000, paymentMethod: "UPI", notes: "" },
+  { id: "expense-24", date: "2027-01-20", category: "Shopping", description: "Clothing", amount: 4000, paymentMethod: "Card", notes: "" },
+  { id: "expense-25", date: "2027-01-28", category: "Other", description: "Home supplies", amount: 1500, paymentMethod: "Cash", notes: "" },
+];

@@ -1,0 +1,4 @@
+.modal-backdrop{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:20px;background:#060807b8;backdrop-filter:blur(4px)}
+.confirm-modal{width:min(100%,390px);padding:27px;border:1px solid var(--border);border-radius:16px;background:var(--bg-card);box-shadow:0 24px 90px #0008}
+.confirm-icon{display:grid;width:42px;height:42px;place-items:center;border-radius:12px;background:color-mix(in srgb,var(--danger) 12%,transparent);color:var(--danger)}.confirm-modal h2{margin:19px 0 7px;font-size:18px}.confirm-modal p{margin:0;color:var(--text-muted);font-size:13px}
+.modal-actions{display:flex;justify-content:flex-end;gap:9px;margin-top:26px}
